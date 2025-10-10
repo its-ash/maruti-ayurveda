@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://its-ash.github.io/maruti-ayurveda/sitemap.xml
+
+# Medical website specific directives
+Allow: /images/
+Allow: /css/
+Allow: /js/
+Allow: /services
+Allow: /doctors
+Allow: /gallery
+Allow: /contact
+
+# Disallow admin or private areas (if any)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.pdf$
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Additional sitemap references
+Sitemap: https://its-ash.github.io/maruti-ayurveda/sitemap.xmler-Agent: *
+Disallow:
