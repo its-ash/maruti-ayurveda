@@ -7,14 +7,14 @@
 </template>
 
 <script setup>
-// Prefetch critical pages on app mount
+// Prefetch critical pages on app mount using navigateTo with prefetch
 onMounted(() => {
   // Prefetch key pages for instant navigation
-  const router = useRouter()
   const pages = ['/services', '/doctors', '/gallery', '/contact']
   
   pages.forEach(page => {
-    router.prefetch(page)
+    // Use preloadRouteComponents for prefetching in Nuxt 3
+    preloadRouteComponents(page)
   })
 })
 </script>

@@ -320,29 +320,6 @@
       </div>
     </section>
 
-    <!-- Footer Component -->
-    <Footer />
-
-    <!-- Search form popup -->
-    <form action="#" class="ct-searchForm">
-      <div class="inner">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-sm-8">
-              <div class="form-group">
-                <input id="cf-search-form" type="text" placeholder="Search ..." required class="form-control" />
-                <button type="submit" class="ct-search-btn"><i class="fa fa-search"></i></button>
-              </div>
-              <div class="form-group">
-                <a href="#" class="ct-searchForm-close">
-                  <i class="fas fa-times"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </form>
 
     <!-- Back to top -->
     <div id="back-to-top">
