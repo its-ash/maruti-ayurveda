@@ -15,6 +15,7 @@ export default defineNuxtConfig({
   
   app: {
     baseURL: "/maruti-ayurveda/",
+    buildAssetsDir: "/maruti-ayurveda/_nuxt/",
     head: {
       title:
         "Maruti Ayurveda Panchakarma Hospital & Research Center - Expert Ayurvedic Treatment",
@@ -44,7 +45,7 @@ export default defineNuxtConfig({
           content:
             "Expert Ayurvedic treatment with Panchakarma therapy, infertility care, and traditional healing in Gagnapur, Rajasthan.",
         },
-        { property: "og:image", content: "/images/logo.png" },
+        { property: "og:image", content: "/maruti-ayurveda/images/logo.png" },
         {
           property: "og:url",
           content: "https://its-ash.github.io/maruti-ayurveda/",
@@ -60,7 +61,7 @@ export default defineNuxtConfig({
           content:
             "Expert Ayurvedic treatment with Panchakarma therapy, infertility care, and traditional healing.",
         },
-        { name: "twitter:image", content: "/images/logo.png" },
+        { name: "twitter:image", content: "/maruti-ayurveda/images/logo.png" },
         { name: "geo.region", content: "IN-RJ" },
         { name: "geo.placename", content: "Gagnapur" },
         { name: "geo.position", content: "26.8464;75.8068" },
@@ -70,21 +71,21 @@ export default defineNuxtConfig({
         {
           rel: "shortcut icon",
           type: "image/x-icon",
-          href: "/images/cropped-favicon-32x32.png",
+          href: "/maruti-ayurveda/images/cropped-favicon-32x32.png",
         },
         {
           rel: "icon",
           type: "image/png",
           sizes: "32x32",
-          href: "/images/cropped-favicon-32x32.png",
+          href: "/maruti-ayurveda/images/cropped-favicon-32x32.png",
         },
         {
           rel: "canonical",
           href: "https://its-ash.github.io/maruti-ayurveda/",
         },
-        { rel: "stylesheet", href: "/css/bootstrap.min.css" },
-        { rel: "stylesheet", href: "/css/style.css" },
-        { rel: "stylesheet", href: "/css/plugin.css" },
+        { rel: "stylesheet", href: "/maruti-ayurveda/css/bootstrap.min.css" },
+        { rel: "stylesheet", href: "/maruti-ayurveda/css/style.css" },
+        { rel: "stylesheet", href: "/maruti-ayurveda/css/plugin.css" },
         {
           rel: "stylesheet",
           href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
@@ -95,12 +96,12 @@ export default defineNuxtConfig({
         },
       ],
       script: [
-        { src: "/js/jquery-3.5.1.min.js" },
-        { src: "/js/bootstrap.min.js" },
-        { src: "/js/plugin.js" },
-        { src: "/js/main.js" },
-        { src: "/js/custom-swiper.js" },
-        { src: "/js/custom-nav.js" },
+        { src: "/maruti-ayurveda/js/jquery-3.5.1.min.js" },
+        { src: "/maruti-ayurveda/js/bootstrap.min.js" },
+        { src: "/maruti-ayurveda/js/plugin.js" },
+        { src: "/maruti-ayurveda/js/main.js" },
+        { src: "/maruti-ayurveda/js/custom-swiper.js" },
+        { src: "/maruti-ayurveda/js/custom-nav.js" },
       ],
     },
   },
