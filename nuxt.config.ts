@@ -20,6 +20,8 @@ export default defineNuxtConfig({
   
   app: {
     baseURL: "/",
+    // Enable page prefetching for better performance
+    keepalive: true,
     head: {
       title:
         "Maruti Ayurveda Panchakarma Hospital & Research Center - Expert Ayurvedic Treatment",
@@ -87,6 +89,11 @@ export default defineNuxtConfig({
           rel: "canonical",
           href: "https://marutiayurveda.in/",
         },
+        // Prefetch key pages for better performance
+        { rel: "prefetch", href: "/services" },
+        { rel: "prefetch", href: "/doctors" },
+        { rel: "prefetch", href: "/gallery" },
+        { rel: "prefetch", href: "/contact" },
         { rel: "stylesheet", href: "/css/bootstrap.min.css" },
         { rel: "stylesheet", href: "/css/style.css" },
         { rel: "stylesheet", href: "/css/plugin.css" },
@@ -127,6 +134,7 @@ export default defineNuxtConfig({
   },
   experimental: {
     payloadExtraction: false,
+    viewTransition: true
   },
   
   // Vue configuration for better hydration
@@ -141,5 +149,19 @@ export default defineNuxtConfig({
     public: {
       baseURL: '/'
     }
+  },
+  
+  // Router configuration for prefetching
+  routeRules: {
+    // Static pages - prerender at build time
+    '/': { prerender: true },
+    '/services': { prerender: true },
+    '/doctors': { prerender: true },
+    '/gallery': { prerender: true },
+    '/contact': { prerender: true },
+    // Add headers for better caching
+    '/images/**': { headers: { 'Cache-Control': 'max-age=31536000' } },
+    '/css/**': { headers: { 'Cache-Control': 'max-age=31536000' } },
+    '/js/**': { headers: { 'Cache-Control': 'max-age=31536000' } }
   }
 });

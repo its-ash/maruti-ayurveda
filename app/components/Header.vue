@@ -43,17 +43,17 @@
             <div class="navbar-collapse1" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav" id="responsive-menu">
                 <li class="active">
-                  <NuxtLink to="/">Home</NuxtLink>
+                  <NuxtLink to="/" prefetch>Home</NuxtLink>
                 </li>
-                <li><NuxtLink to="/services">Services</NuxtLink></li>
-                <li><NuxtLink to="/doctors">Doctors</NuxtLink></li>
-                <li><NuxtLink to="/gallery">Gallery</NuxtLink></li>
-                <li><NuxtLink to="/contact">Contact Us</NuxtLink></li>
+                <li><NuxtLink to="/services" prefetch>Services</NuxtLink></li>
+                <li><NuxtLink to="/doctors" prefetch>Doctors</NuxtLink></li>
+                <li><NuxtLink to="/gallery" prefetch>Gallery</NuxtLink></li>
+                <li><NuxtLink to="/contact" prefetch>Contact Us</NuxtLink></li>
               </ul>
             </div>
 
             <div class="header-btn">
-              <NuxtLink to="/contact" class="btn">Contact Us</NuxtLink>
+              <NuxtLink to="/contact" class="btn" prefetch>Contact Us</NuxtLink>
             </div>
             <!-- /.navbar-collapse -->
             <div id="slicknav-mobile"></div>
