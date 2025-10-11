@@ -2,16 +2,19 @@ export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: false },
   modules: ["@nuxtjs/seo"],
-  ssr: false,
-  
+  ssr: true, // Enable SSR for proper GitHub Pages support
   
   // SEO Configuration
   robots: {
     robotsTxt: false // Disable automatic robots.txt generation since we have a custom one
   },
   
+  ogImage: {
+    enabled: false // Disable OG Image generation to avoid SSR conflicts
+  },
+  
   site: {
-    url: 'https://its-ash.github.io/maruti-ayurveda/',
+    url: 'https://its-ash.github.io', // Remove path from URL
     name: 'Maruti Ayurveda Panchakarma Hospital'
   },
   
@@ -122,8 +125,6 @@ export default defineNuxtConfig({
       ],
     },
   },
-  // Additional SEO configurations
-  ssr: true,
   experimental: {
     payloadExtraction: false,
   },
