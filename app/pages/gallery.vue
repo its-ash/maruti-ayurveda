@@ -14,8 +14,8 @@ useHead({
     { property: 'og:title', content: 'Hospital Photo Gallery - Modern Ayurvedic Facilities | Maruti Ayurveda' },
     { property: 'og:description', content: 'Explore our modern Ayurvedic hospital facilities through our photo gallery. See our Panchakarma treatment rooms and medical infrastructure.' },
     { property: 'og:type', content: 'website' },
-    { property: 'og:url', content: 'https://its-ash.github.io/maruti-ayurveda/gallery' },
-    { property: 'og:image', content: 'https://its-ash.github.io/maruti-ayurveda/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.05.jpeg' },
+    { property: 'og:url', content: 'https://marutiayurveda.in/gallery' },
+    { property: 'og:image', content: 'https://marutiayurveda.in/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.05.jpeg' },
     { name: 'twitter:title', content: 'Hospital Photo Gallery - Modern Ayurvedic Facilities' },
     { name: 'twitter:description', content: 'View our modern Ayurvedic hospital facilities, treatment rooms, and medical infrastructure.' },
     { name: 'twitter:card', content: 'summary_large_image' }
@@ -26,18 +26,18 @@ useHead({
       innerHTML: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'ImageGallery',
-        '@id': 'https://its-ash.github.io/maruti-ayurveda/gallery',
+        '@id': 'https://marutiayurveda.in/gallery',
         name: 'Maruti Ayurveda Hospital Photo Gallery',
         description: 'Photo gallery showcasing modern Ayurvedic hospital facilities, treatment rooms, and medical infrastructure',
-        url: 'https://its-ash.github.io/maruti-ayurveda/gallery',
+        url: 'https://marutiayurveda.in/gallery',
         about: {
           '@type': 'Hospital',
           name: 'Maruti Ayurveda Panchakarma Hospital & Research Center'
         },
         image: [
-          'https://its-ash.github.io/maruti-ayurveda/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.05.jpeg',
-          'https://its-ash.github.io/maruti-ayurveda/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.06.jpeg',
-          'https://its-ash.github.io/maruti-ayurveda/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.07.jpeg'
+          'https://marutiayurveda.in/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.05.jpeg',
+          'https://marutiayurveda.in/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.06.jpeg',
+          'https://marutiayurveda.in/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.07.jpeg'
         ]
       })
     }

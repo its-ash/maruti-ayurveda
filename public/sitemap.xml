@@ -4,12 +4,12 @@
   
   <!-- Homepage -->
   <url>
-    <loc>https://its-ash.github.io/maruti-ayurveda/</loc>
+    <loc>https://marutiayurveda.in/</loc>
     <lastmod>2025-10-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://its-ash.github.io/maruti-ayurveda/images/logo.png</image:loc>
+      <image:loc>https://marutiayurveda.in/images/logo.png</image:loc>
       <image:title>Maruti Ayurveda Panchakarma Hospital Logo</image:title>
       <image:caption>Leading Ayurvedic hospital in Gagnapur providing Panchakarma therapy and traditional healing</image:caption>
     </image:image>
@@ -17,7 +17,7 @@
 
   <!-- Services Page -->
   <url>
-    <loc>https://its-ash.github.io/maruti-ayurveda/services</loc>
+    <loc>https://marutiayurveda.in/services</loc>
     <lastmod>2025-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -25,22 +25,22 @@
 
   <!-- Doctors Page -->
   <url>
-    <loc>https://its-ash.github.io/maruti-ayurveda/doctors</loc>
+    <loc>https://marutiayurveda.in/doctors</loc>
     <lastmod>2025-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://its-ash.github.io/maruti-ayurveda/images/team/medical-hero-fighting-the-coronavirus-2021-05-04-07-27-34-utc.jpg</image:loc>
+      <image:loc>https://marutiayurveda.in/images/team/medical-hero-fighting-the-coronavirus-2021-05-04-07-27-34-utc.jpg</image:loc>
       <image:title>Dr. Giriraj Prasad Sharma - Senior Panchakarma Specialist</image:title>
       <image:caption>BAMS PG qualified Ayurvedic doctor specializing in Panchakarma and infertility treatment</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://its-ash.github.io/maruti-ayurveda/images/team/medical-experts-2021-05-02-19-42-45-utc.jpg</image:loc>
+      <image:loc>https://marutiayurveda.in/images/team/medical-experts-2021-05-02-19-42-45-utc.jpg</image:loc>
       <image:title>Dr. Ramesh Chand Jaiminy - Senior Panchakarma Specialist</image:title>
       <image:caption>BAMS qualified Ayurvedic doctor specializing in Panchakarma and infertility treatment</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://its-ash.github.io/maruti-ayurveda/images/team/rm7rZYdl3rY.jpg</image:loc>
+      <image:loc>https://marutiayurveda.in/images/team/rm7rZYdl3rY.jpg</image:loc>
       <image:title>Dr. Veer Singh Meena - Ayurvedic Physician</image:title>
       <image:caption>BAMS qualified Ayurvedic physician with registration number 30354</image:caption>
     </image:image>
@@ -48,27 +48,27 @@
 
   <!-- Gallery Page -->
   <url>
-    <loc>https://its-ash.github.io/maruti-ayurveda/gallery</loc>
+    <loc>https://marutiayurveda.in/gallery</loc>
     <lastmod>2025-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
-      <image:loc>https://its-ash.github.io/maruti-ayurveda/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.05.jpeg</image:loc>
+      <image:loc>https://marutiayurveda.in/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.05.jpeg</image:loc>
       <image:title>Maruti Ayurveda Hospital Main Reception Area</image:title>
       <image:caption>Modern Ayurvedic healthcare facility with comfortable patient reception area</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://its-ash.github.io/maruti-ayurveda/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.06.jpeg</image:loc>
+      <image:loc>https://marutiayurveda.in/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.06.jpeg</image:loc>
       <image:title>Panchakarma Treatment Room</image:title>
       <image:caption>Traditional Ayurvedic therapy facility equipped for Panchakarma treatments</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://its-ash.github.io/maruti-ayurveda/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.07.jpeg</image:loc>
+      <image:loc>https://marutiayurveda.in/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.07.jpeg</image:loc>
       <image:title>Patient Consultation Room</image:title>
       <image:caption>Expert Ayurvedic doctor consultation area for patient examinations</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://its-ash.github.io/maruti-ayurveda/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.09.jpeg</image:loc>
+      <image:loc>https://marutiayurveda.in/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.09.jpeg</image:loc>
       <image:title>Infertility Treatment Center</image:title>
       <image:caption>Specialized Ayurvedic reproductive health facility for infertility treatment</image:caption>
     </image:image>
@@ -76,7 +76,7 @@
 
   <!-- Contact Page -->
   <url>
-    <loc>https://its-ash.github.io/maruti-ayurveda/contact</loc>
+    <loc>https://marutiayurveda.in/contact</loc>
     <lastmod>2025-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

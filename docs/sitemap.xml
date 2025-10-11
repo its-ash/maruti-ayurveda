@@ -1,139 +1,115 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/maruti-ayurveda/__sitemap__/style.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/__sitemap__/style.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://its-ash.github.io/maruti-ayurveda</loc>
+        <loc>https://marutiayurveda.in/</loc>
         <image:image>
-            <image:loc>https://its-ash.github.io/images/logo.png</image:loc>
+            <image:loc>https://marutiayurveda.in/images/logo.png</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://its-ash.github.io/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.05.jpeg</image:loc>
+            <image:loc>https://marutiayurveda.in/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.05.jpeg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://its-ash.github.io/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.07.jpeg</image:loc>
+            <image:loc>https://marutiayurveda.in/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.07.jpeg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://its-ash.github.io/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.09.jpeg</image:loc>
+            <image:loc>https://marutiayurveda.in/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.09.jpeg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://its-ash.github.io/images/team/medical-hero-fighting-the-coronavirus-2021-05-04-07-27-34-utc.jpg</image:loc>
+            <image:loc>https://marutiayurveda.in/images/team/medical-hero-fighting-the-coronavirus-2021-05-04-07-27-34-utc.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://its-ash.github.io/images/team/medical-experts-2021-05-02-19-42-45-utc.jpg</image:loc>
+            <image:loc>https://marutiayurveda.in/images/team/medical-experts-2021-05-02-19-42-45-utc.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://its-ash.github.io/images/team/rm7rZYdl3rY.jpg</image:loc>
-        </image:image>
-    </url>
-    <url>
-        <loc>https://its-ash.github.io/maruti-ayurveda/contact</loc>
-        <image:image>
-            <image:loc>https://its-ash.github.io/images/logo.png</image:loc>
+            <image:loc>https://marutiayurveda.in/images/team/rm7rZYdl3rY.jpg</image:loc>
         </image:image>
     </url>
     <url>
-        <loc>https://its-ash.github.io/maruti-ayurveda/doctors</loc>
+        <loc>https://marutiayurveda.in/contact</loc>
         <image:image>
-            <image:loc>https://its-ash.github.io/images/logo.png</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://its-ash.github.io/images/team/medical-hero-fighting-the-coronavirus-2021-05-04-07-27-34-utc.jpg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://its-ash.github.io/images/team/medical-experts-2021-05-02-19-42-45-utc.jpg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://its-ash.github.io/images/team/rm7rZYdl3rY.jpg</image:loc>
+            <image:loc>https://marutiayurveda.in/images/logo.png</image:loc>
         </image:image>
     </url>
     <url>
-        <loc>https://its-ash.github.io/maruti-ayurveda/gallery</loc>
+        <loc>https://marutiayurveda.in/doctors</loc>
         <image:image>
-            <image:loc>https://its-ash.github.io/images/logo.png</image:loc>
+            <image:loc>https://marutiayurveda.in/images/logo.png</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://its-ash.github.io/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.05 (1).jpeg</image:loc>
+            <image:loc>https://marutiayurveda.in/images/team/medical-hero-fighting-the-coronavirus-2021-05-04-07-27-34-utc.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://its-ash.github.io/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.05.jpeg</image:loc>
+            <image:loc>https://marutiayurveda.in/images/team/medical-experts-2021-05-02-19-42-45-utc.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://its-ash.github.io/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.06 (1).jpeg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://its-ash.github.io/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.06.jpeg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://its-ash.github.io/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.07 (1).jpeg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://its-ash.github.io/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.07 (2).jpeg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://its-ash.github.io/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.07.jpeg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://its-ash.github.io/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.08 (1).jpeg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://its-ash.github.io/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.08.jpeg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://its-ash.github.io/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.09 (1).jpeg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://its-ash.github.io/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.09 (2).jpeg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://its-ash.github.io/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.09.jpeg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://its-ash.github.io/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.10 (1).jpeg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://its-ash.github.io/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.10.jpeg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://its-ash.github.io/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.11 (1).jpeg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://its-ash.github.io/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.11 (2).jpeg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://its-ash.github.io/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.11.jpeg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://its-ash.github.io/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.12.jpeg</image:loc>
+            <image:loc>https://marutiayurveda.in/images/team/rm7rZYdl3rY.jpg</image:loc>
         </image:image>
     </url>
     <url>
-        <loc>https://its-ash.github.io/maruti-ayurveda/maruti-ayurveda</loc>
+        <loc>https://marutiayurveda.in/gallery</loc>
         <image:image>
-            <image:loc>https://its-ash.github.io/images/logo.png</image:loc>
+            <image:loc>https://marutiayurveda.in/images/logo.png</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://its-ash.github.io/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.05.jpeg</image:loc>
+            <image:loc>https://marutiayurveda.in/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.05 (1).jpeg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://its-ash.github.io/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.07.jpeg</image:loc>
+            <image:loc>https://marutiayurveda.in/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.05.jpeg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://its-ash.github.io/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.09.jpeg</image:loc>
+            <image:loc>https://marutiayurveda.in/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.06 (1).jpeg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://its-ash.github.io/images/team/medical-hero-fighting-the-coronavirus-2021-05-04-07-27-34-utc.jpg</image:loc>
+            <image:loc>https://marutiayurveda.in/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.06.jpeg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://its-ash.github.io/images/team/medical-experts-2021-05-02-19-42-45-utc.jpg</image:loc>
+            <image:loc>https://marutiayurveda.in/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.07 (1).jpeg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://its-ash.github.io/images/team/rm7rZYdl3rY.jpg</image:loc>
+            <image:loc>https://marutiayurveda.in/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.07 (2).jpeg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://marutiayurveda.in/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.07.jpeg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://marutiayurveda.in/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.08 (1).jpeg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://marutiayurveda.in/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.08.jpeg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://marutiayurveda.in/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.09 (1).jpeg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://marutiayurveda.in/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.09 (2).jpeg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://marutiayurveda.in/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.09.jpeg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://marutiayurveda.in/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.10 (1).jpeg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://marutiayurveda.in/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.10.jpeg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://marutiayurveda.in/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.11 (1).jpeg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://marutiayurveda.in/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.11 (2).jpeg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://marutiayurveda.in/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.11.jpeg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://marutiayurveda.in/images/hostpital/WhatsApp Image 2025-09-26 at 14.48.12.jpeg</image:loc>
         </image:image>
     </url>
     <url>
-        <loc>https://its-ash.github.io/maruti-ayurveda/services</loc>
+        <loc>https://marutiayurveda.in/services</loc>
         <image:image>
-            <image:loc>https://its-ash.github.io/images/logo.png</image:loc>
+            <image:loc>https://marutiayurveda.in/images/logo.png</image:loc>
         </image:image>
     </url>
 </urlset>
-<!-- XML Sitemap generated by @nuxtjs/sitemap v7.4.7 at 2025-10-11T05:19:26.129Z -->
+<!-- XML Sitemap generated by @nuxtjs/sitemap v7.4.7 at 2025-10-11T17:32:11.781Z -->

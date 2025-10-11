@@ -14,7 +14,7 @@ useHead({
     { property: 'og:title', content: 'Expert Ayurvedic Doctors - BAMS Qualified Physicians | Maruti Ayurveda' },
     { property: 'og:description', content: 'Meet our qualified BAMS doctors specializing in Panchakarma therapy and infertility treatment at Maruti Ayurveda Hospital, Gagnapur.' },
     { property: 'og:type', content: 'website' },
-    { property: 'og:url', content: 'https://its-ash.github.io/maruti-ayurveda/doctors' },
+    { property: 'og:url', content: 'https://marutiayurveda.in/doctors' },
     { name: 'twitter:title', content: 'Expert Ayurvedic Doctors - BAMS Qualified Physicians' },
     { name: 'twitter:description', content: 'Qualified BAMS doctors specializing in Panchakarma therapy and traditional Ayurvedic treatments.' }
   ],
@@ -25,7 +25,7 @@ useHead({
         {
           '@context': 'https://schema.org',
           '@type': 'Person',
-          '@id': 'https://its-ash.github.io/maruti-ayurveda/doctors#dr-giriraj',
+          '@id': 'https://marutiayurveda.in/doctors#dr-giriraj',
           name: 'Dr. Giriraj Prasad Sharma',
           jobTitle: 'Senior Panchakarma and Infertility Specialist',
           worksFor: {
@@ -43,12 +43,12 @@ useHead({
             'Infertility Treatment',
             'Ayurvedic Medicine'
           ],
-          image: 'https://its-ash.github.io/maruti-ayurveda/images/team/medical-hero-fighting-the-coronavirus-2021-05-04-07-27-34-utc.jpg'
+          image: 'https://marutiayurveda.in/images/team/medical-hero-fighting-the-coronavirus-2021-05-04-07-27-34-utc.jpg'
         },
         {
           '@context': 'https://schema.org',
           '@type': 'Person',
-          '@id': 'https://its-ash.github.io/maruti-ayurveda/doctors#dr-ramesh',
+          '@id': 'https://marutiayurveda.in/doctors#dr-ramesh',
           name: 'Dr. Ramesh Chand Jaiminy',
           jobTitle: 'Senior Panchakarma and Infertility Specialist',
           worksFor: {
@@ -65,12 +65,12 @@ useHead({
             'Infertility Treatment',
             'Ayurvedic Medicine'
           ],
-          image: 'https://its-ash.github.io/maruti-ayurveda/images/team/medical-experts-2021-05-02-19-42-45-utc.jpg'
+          image: 'https://marutiayurveda.in/images/team/medical-experts-2021-05-02-19-42-45-utc.jpg'
         },
         {
           '@context': 'https://schema.org',
           '@type': 'Person',
-          '@id': 'https://its-ash.github.io/maruti-ayurveda/doctors#dr-veer',
+          '@id': 'https://marutiayurveda.in/doctors#dr-veer',
           name: 'Dr. Veer Singh Meena',
           jobTitle: 'Ayurvedic Physician',
           worksFor: {
@@ -88,7 +88,7 @@ useHead({
             'Traditional Healing',
             'Natural Therapy'
           ],
-          image: 'https://its-ash.github.io/maruti-ayurveda/images/team/rm7rZYdl3rY.jpg'
+          image: 'https://marutiayurveda.in/images/team/rm7rZYdl3rY.jpg'
         }
       ])
     }

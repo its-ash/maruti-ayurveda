@@ -12,7 +12,12 @@
             <div class="container">
               <div class="slide-contain">
                 <h4 class="cl-white mb-0">Welcome To</h4>
-                <h1 class="cl-white mt-2 wow fadeInDown">Maruti Ayurveda Panchakarma Hospital & Research Center</h1>
+                <ClientOnly>
+                  <h1 class="cl-white mt-2 wow fadeInDown">Maruti Ayurveda Panchakarma Hospital & Research Center</h1>
+                  <template #fallback>
+                    <h1 class="cl-white mt-2">Maruti Ayurveda Panchakarma Hospital & Research Center</h1>
+                  </template>
+                </ClientOnly>
                 <h3 class="cl-lblue mt-2 mb-3">मारुती आयुर्वेद पंचकर्म हॉस्पिटल एण्ड रिसर्च सेन्टर</h3>
                 <p class="cl-white">Traditional Ayurvedic healing with modern facilities. Expert care for Panchakarma, Infertility treatment, and comprehensive health solutions.</p>
                 <div class="slide-btn mt-4">
@@ -362,7 +367,7 @@ useHead({
     { property: 'og:title', content: 'Maruti Ayurveda Panchakarma Hospital & Research Center - Leading Ayurvedic Hospital' },
     { property: 'og:description', content: 'Expert Ayurvedic treatment with Panchakarma therapy, infertility care, and traditional healing in Gagnapur, Rajasthan.' },
     { property: 'og:type', content: 'website' },
-    { property: 'og:url', content: 'https://its-ash.github.io/maruti-ayurveda/' },
+    { property: 'og:url', content: 'https://marutiayurveda.in/' },
     { name: 'twitter:title', content: 'Maruti Ayurveda Panchakarma Hospital - Expert Ayurvedic Care' },
     { name: 'twitter:description', content: 'Leading Ayurvedic hospital offering Panchakarma therapy, infertility treatment, and comprehensive natural healing solutions.' }
   ],
@@ -372,11 +377,11 @@ useHead({
       innerHTML: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'Hospital',
-        '@id': 'https://its-ash.github.io/maruti-ayurveda/',
+        '@id': 'https://marutiayurveda.in/',
         name: 'Maruti Ayurveda Panchakarma Hospital & Research Center',
         alternateName: 'मारुती आयुर्वेद पंचकर्म हॉस्पिटल एण्ड रिसर्च सेन्टर',
         description: 'Leading Ayurvedic hospital specializing in Panchakarma therapy, infertility treatment, and traditional healing',
-        url: 'https://its-ash.github.io/maruti-ayurveda/',
+        url: 'https://marutiayurveda.in/',
         telephone: '+919875072965',
         email: 'info@marutiayurveda.com',
         address: {
@@ -427,8 +432,8 @@ useHead({
             }
           ]
         },
-        image: 'https://its-ash.github.io/maruti-ayurveda/images/logo.png',
-        logo: 'https://its-ash.github.io/maruti-ayurveda/images/logo.png'
+        image: 'https://marutiayurveda.in/images/logo.png',
+        logo: 'https://marutiayurveda.in/images/logo.png'
       })
     }
   ]

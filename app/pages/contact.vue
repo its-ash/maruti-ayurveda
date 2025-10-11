@@ -14,7 +14,7 @@ useHead({
     { property: 'og:title', content: 'Contact Maruti Ayurveda Panchakarma Hospital | Gagnapur, Rajasthan' },
     { property: 'og:description', content: 'Contact us for expert Ayurvedic treatment. Located in Gagnapur, Rajasthan. Call 9875072965 for appointments and emergency care.' },
     { property: 'og:type', content: 'website' },
-    { property: 'og:url', content: 'https://its-ash.github.io/maruti-ayurveda/contact' },
+    { property: 'og:url', content: 'https://marutiayurveda.in/contact' },
     { name: 'twitter:title', content: 'Contact Maruti Ayurveda Panchakarma Hospital' },
     { name: 'twitter:description', content: 'Expert Ayurvedic care in Gagnapur, Rajasthan. Call 9875072965 for appointments.' },
     { name: 'geo.region', content: 'IN-RJ' },
@@ -28,11 +28,11 @@ useHead({
       innerHTML: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'Hospital',
-        '@id': 'https://its-ash.github.io/maruti-ayurveda/contact',
+        '@id': 'https://marutiayurveda.in/contact',
         name: 'Maruti Ayurveda Panchakarma Hospital & Research Center',
         alternateName: 'मारुती आयुर्वेद पंचकर्म हॉस्पिटल एण्ड रिसर्च सेन्टर',
         description: 'Leading Ayurvedic hospital providing Panchakarma therapy, infertility treatment, and traditional healing in Gagnapur, Rajasthan',
-        url: 'https://its-ash.github.io/maruti-ayurveda/',
+        url: 'https://marutiayurveda.in/',
         telephone: ['+919875072965', '+919667926217'],
         email: 'info@marutiayurveda.com',
         address: {
@@ -78,8 +78,8 @@ useHead({
         priceRange: '$$',
         currenciesAccepted: 'INR',
         paymentAccepted: ['Cash', 'Credit Card', 'Insurance'],
-        image: 'https://its-ash.github.io/maruti-ayurveda/images/logo.png',
-        logo: 'https://its-ash.github.io/maruti-ayurveda/images/logo.png'
+        image: 'https://marutiayurveda.in/images/logo.png',
+        logo: 'https://marutiayurveda.in/images/logo.png'
       })
     }
   ]

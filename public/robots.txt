@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://its-ash.github.io/maruti-ayurveda/sitemap.xml
+Sitemap: https://marutiayurveda.in/sitemap.xml
 
 # Medical website specific directives
 Allow: /images/
@@ -20,7 +20,3 @@ Disallow: /*.pdf$
 
 # Crawl-delay for respectful crawling
 Crawl-delay: 1
-
-# Additional sitemap references
-Sitemap: https://its-ash.github.io/maruti-ayurveda/sitemap.xmler-Agent: *
-Disallow:
