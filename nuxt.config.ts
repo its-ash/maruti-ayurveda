@@ -17,7 +17,6 @@ export default defineNuxtConfig({
   
   app: {
     baseURL: "/maruti-ayurveda/",
-    buildAssetsDir: "/maruti-ayurveda/_nuxt/",
     head: {
       title:
         "Maruti Ayurveda Panchakarma Hospital & Research Center - Expert Ayurvedic Treatment",
