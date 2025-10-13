@@ -4,6 +4,25 @@ export default defineNuxtConfig({
   modules: ["@nuxtjs/seo"],
   ssr: true, // Enable SSR for proper GitHub Pages support
   
+  // Static site generation for GitHub Pages
+  nitro: {
+    output: {
+      dir: "docs",
+      publicDir: "docs",
+    },
+    prerender: {
+      routes: [
+        "/",
+        "/services",
+        "/doctors",
+        "/gallery",
+        "/contact",
+        "/sitemap.xml",
+      ],
+      crawlLinks: true
+    },
+  },
+  
   // SEO Configuration
   robots: {
     robotsTxt: false // Disable automatic robots.txt generation since we have a custom one
@@ -114,22 +133,6 @@ export default defineNuxtConfig({
         { src: "/js/main.js" },
         { src: "/js/custom-swiper.js" },
         { src: "/js/custom-nav.js" },
-      ],
-    },
-  },
-  nitro: {
-    output: {
-      dir: "docs",
-      publicDir: "docs",
-    },
-    prerender: {
-      routes: [
-        "/",
-        "/services",
-        "/doctors",
-        "/gallery",
-        "/contact",
-        "/sitemap.xml",
       ],
     },
   },
