@@ -2,7 +2,7 @@ export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: false },
   modules: ["@nuxtjs/seo"],
-  ssr: false, // Enable SSR for proper GitHub Pages support
+  ssr: true, // Enable SSR for proper GitHub Pages support
   
   // SEO Configuration
   robots: {
@@ -120,7 +120,6 @@ export default defineNuxtConfig({
   nitro: {
     output: {
       dir: "docs",
-      publicDir: "docs",
     },
     prerender: {
       routes: [

@@ -88,5 +88,3 @@ if (typeof window !== 'undefined') {
         setTimeout(initSlickNav, 1000);
     });
 }
-
-setTimeout(initSlickNav, 3000);
