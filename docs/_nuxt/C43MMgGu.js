@@ -1,1 +1,0 @@
-import{k as s}from"#entry";const a=s("/images/team/medical-hero-fighting-the-coronavirus-2021-05-04-07-27-34-utc.jpg"),e=s("/images/team/medical-experts-2021-05-02-19-42-45-utc.jpg"),m=s("/images/team/rm7rZYdl3rY.jpg");export{a as _,e as a,m as b};

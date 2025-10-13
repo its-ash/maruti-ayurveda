@@ -97,6 +97,7 @@ export default defineNuxtConfig({
         { rel: "stylesheet", href: "/css/bootstrap.min.css" },
         { rel: "stylesheet", href: "/css/style.css" },
         { rel: "stylesheet", href: "/css/plugin.css" },
+        { rel: "stylesheet", href: "/fonts/flaticon.css" },
         {
           rel: "stylesheet",
           href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",

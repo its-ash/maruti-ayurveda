@@ -1,4 +1,4 @@
-$(window).on('scroll', function(event) {
+$(window).on('scroll', function() {
     var scrollValue = $(window).scrollTop();
     if (scrollValue > 70) {
          $('.header_menu').addClass('fixed-top animated slideInDown');
@@ -7,63 +7,62 @@ $(window).on('scroll', function(event) {
     } 
 });
 
+// Function to initialize SlickNav
+function initSlickNav() {
+    console.log('Initializing SlickNav...');
+    
+    if (typeof jQuery !== 'undefined' && jQuery.fn.slicknav) {
+        var $ = jQuery;
+        
+        // Check if elements exist
+        if ($('#responsive-menu').length > 0 && $('#slicknav-mobile').length > 0) {
+            // Destroy existing instance
+            if ($('#responsive-menu').hasClass('slicknav_menu')) {
+                $('#responsive-menu').slicknav('destroy');
+            }
+            
+            // Initialize SlickNav
+            $('#responsive-menu').slicknav({
+                duration: 500,
+                easingOpen: 'easeInExpo',
+                easingClose: 'easeOutExpo',
+                closedSymbol: '<i class="fa fa-angle-down"></i>',
+                openedSymbol: '<i class="fa fa-angle-up"></i>',
+                prependTo: '#slicknav-mobile',
+                allowParentLinks: true,
+                label: "",
+                duplicate: true,
+                init: function() {
+                    console.log('SlickNav initialized successfully 12');
+                }
+            });
+        } else {
+            console.warn('SlickNav elements not found');
+        }
+    } else {
+        console.warn('jQuery or SlickNav not available');
+    }
+}
 
-  
-"use strict";
-
-
-/*======== Doucument Ready Function =========*/
+/*======== Document Ready Function =========*/
 jQuery(document).ready(function () {
-
-      // slicknav
-    /**
-     * Slicknav - a Mobile Menu
-     */
-    var $slicknav_label;
-    $('.responsive-menu').slicknav({
-      duration: 500,
-      easingOpen: 'easeInExpo',
-      easingClose: 'easeOutExpo',
-      closedSymbol: '<i class="fa fa-angle-down"></i>',
-      openedSymbol: '<i class="fa fa-angle-up"></i>',
-      prependTo: '#slicknav-mobile',
-      allowParentLinks: true,
-      label:"" 
-    });
-
-    var $slicknav_label;
-    $('#responsive-menu').slicknav({
-      duration: 500,
-      easingOpen: 'easeInExpo',
-      easingClose: 'easeOutExpo',
-      closedSymbol: '<i class="fa fa-angle-down"></i>',
-      openedSymbol: '<i class="fa fa-angle-up"></i>',
-      prependTo: '#slicknav-mobile',
-      allowParentLinks: true,
-      label:"" 
-    });
-
+    // Initialize SlickNav
+    initSlickNav();
     
     /**
      * Sticky Header
      */
-        
     $(window).scroll(function(){
-
-      if( $(window).scrollTop() > 10 ){
-
-        $('.navbar').addClass('navbar-sticky-in')
-
-      } else {
-        $('.navbar').removeClass('navbar-sticky-in')
-      }
-
-    })
+        if( $(window).scrollTop() > 10 ){
+            $('.navbar').addClass('navbar-sticky-in')
+        } else {
+            $('.navbar').removeClass('navbar-sticky-in')
+        }
+    });
     
     /**
      * Main Menu Slide Down Effect
      */
-     
     var selected = $('#navbar li');
     // Mouse-enter dropdown
     selected.on("mouseenter", function() {
@@ -79,11 +78,13 @@ jQuery(document).ready(function () {
      *  Arrow for Menu has sub-menu
      */
     if ($(window).width() > 992) {
-      $(".navbar-arrow ul ul > li").has("ul").children("a").append("<i class='arrow-indicator fa fa-angle-right'></i>");
+        $(".navbar-arrow ul ul > li").has("ul").children("a").append("<i class='arrow-indicator fa fa-angle-right'></i>");
     }
-
-
 });
 
-
-
+// Re-initialize on route changes (for SPA)
+if (typeof window !== 'undefined') {
+    window.addEventListener('nuxt:route-changed', function() {
+        setTimeout(initSlickNav, 100);
+    });
+}
