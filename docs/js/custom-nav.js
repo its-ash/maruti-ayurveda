@@ -85,6 +85,8 @@ jQuery(document).ready(function () {
 // Re-initialize on route changes (for SPA)
 if (typeof window !== 'undefined') {
     window.addEventListener('nuxt:route-changed', function() {
-        setTimeout(initSlickNav, 100);
+        setTimeout(initSlickNav, 1000);
     });
 }
+
+setTimeout(initSlickNav, 3000);

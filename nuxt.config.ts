@@ -2,7 +2,7 @@ export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: false },
   modules: ["@nuxtjs/seo"],
-  ssr: true, // Enable SSR for proper GitHub Pages support
+  ssr: false, // Enable SSR for proper GitHub Pages support
   
   // SEO Configuration
   robots: {
