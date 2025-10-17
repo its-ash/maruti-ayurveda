@@ -31,6 +31,9 @@ jobs:
 
       - name: Generate static site
         run: yarn generate
+        env:
+          # Ensure GitHub Pages compatible static output
+          NITRO_PRESET: github_pages
 
       - name: Prepare dist from Nuxt output
         run: |
@@ -68,3 +71,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: gh-pages
+          force_orphan: true
+          enable_jekyll: false
+          cname: marutiayurveda.in

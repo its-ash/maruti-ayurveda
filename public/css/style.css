@@ -1637,17 +1637,36 @@ header #navbar {
 
 .navbar-default .navbar-nav li,
 .navbar-default .navbar-nav li.active {
-  background: #f33807;
+  /*background: #f33807;*/
+  /*  font-weight: 600;*/
+}
+
+.router-link-exact-active{
+    /*background: #f33807;*/
+        font-weight: 600;
+}
+
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #038f14;
+    border: none !important;
+    border-radius: .25rem;
+    transition: box-shadow .15s ease-in-out;
 }
 
 .navbar-default .navbar-nav li a,
 .navbar-default .navbar-nav li a:hover,
 .navbar-default .navbar-nav li.active a,
 .navbar-default .navbar-nav li.active a:hover {
-  color: #ffffff;
-  background: #f33807;
+  color: #111;
+  /*background: #f33807;*/
 }
 
+.navbar-toggler:focus{
+    box-shadow: none;
+}
 .navbar-nav li > ul > li:last-child > a {
   border-bottom: 0;
 }

@@ -1,26 +1,17 @@
-$(window).on('scroll', function() {
-    var scrollValue = $(window).scrollTop();
-    if (scrollValue > 70) {
-         $('.header_menu').addClass('fixed-top animated slideInDown');
-    } else{
-      $('.header_menu').removeClass('fixed-top animated slideInDown');
-    } 
-});
-
 // Function to initialize SlickNav
 function initSlickNav() {
     console.log('Initializing SlickNav...');
-    
+
     if (typeof jQuery !== 'undefined' && jQuery.fn.slicknav) {
         var $ = jQuery;
-        
+
         // Check if elements exist
         if ($('#responsive-menu').length > 0 && $('#slicknav-mobile').length > 0) {
             // Destroy existing instance
             if ($('#responsive-menu').hasClass('slicknav_menu')) {
                 $('#responsive-menu').slicknav('destroy');
             }
-            
+
             // Initialize SlickNav
             $('#responsive-menu').slicknav({
                 duration: 500,
@@ -46,9 +37,6 @@ function initSlickNav() {
 
 /*======== Document Ready Function =========*/
 jQuery(document).ready(function () {
-    // Initialize SlickNav
-    initSlickNav();
-    
     /**
      * Sticky Header
      */
@@ -59,7 +47,7 @@ jQuery(document).ready(function () {
             $('.navbar').removeClass('navbar-sticky-in')
         }
     });
-    
+
     /**
      * Main Menu Slide Down Effect
      */
@@ -81,10 +69,3 @@ jQuery(document).ready(function () {
         $(".navbar-arrow ul ul > li").has("ul").children("a").append("<i class='arrow-indicator fa fa-angle-right'></i>");
     }
 });
-
-// Re-initialize on route changes (for SPA)
-if (typeof window !== 'undefined') {
-    window.addEventListener('nuxt:route-changed', function() {
-        setTimeout(initSlickNav, 1000);
-    });
-}
