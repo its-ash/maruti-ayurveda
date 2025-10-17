@@ -6,7 +6,8 @@ export default defineNuxtConfig({
 
     nitro: {
         output: {
-            dir: './dist'
+            dir: './dist',
+            publicDir: './dist'
         },
         prerender: {
             routes: [
