@@ -32,10 +32,36 @@ jobs:
       - name: Generate static site
         run: yarn generate
 
+      - name: Prepare dist from Nuxt output
+        run: |
+          mkdir -p dist
+          if [ -d ".output/public" ]; then
+            rsync -a --delete .output/public/ dist/
+          elif [ -d "./dist" ]; then
+            echo "dist already exists from config"
+          else
+            echo "No generated output found" && exit 1
+          fi
+
+      - name: Upload dist artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: dist
+
   deploy:
     runs-on: ubuntu-latest
     needs: build
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download dist artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: ./dist
+
       - name: Deploy to gh-pages branch
         uses: peaceiris/actions-gh-pages@v3
         with:
