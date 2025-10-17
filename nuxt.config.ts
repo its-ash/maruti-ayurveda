@@ -4,8 +4,10 @@ export default defineNuxtConfig({
     modules: ["@nuxtjs/seo"],
     ssr: true, // Enable SSR for proper GitHub Pages support
 
-    // Static site generation for GitHub Pages
     nitro: {
+        output: {
+            dir: './dist'
+        },
         prerender: {
             routes: [
                 "/",
